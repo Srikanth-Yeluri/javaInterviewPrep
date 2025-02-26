@@ -22,6 +22,9 @@ public class OverloadingExample {
         System.out.println("String method " + x);
 
     }
+    public String returnSomething(String s){
+        return "HI Srikanth";
+    }
 
     public void display(StringBuffer br) {
         System.out.println("String buffer" + br);
